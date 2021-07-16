@@ -4,20 +4,20 @@
 
 class Translation(object):
     
-    START_TEXT = """<b>🙋‍♂️Hey {}!!</b>
+    START_TEXT = """<b>🙋‍♂️mowna💋 {}!!</b>
 
 <b>Am Just A Pro Auto Filter Bot....😉</b>
 
-<b>Just Add Me To Your Group And Channel And Connect Them And See My Pevers 🔥🔥😝</b>
+<b>join👉 @on_air_movies 😝</b>
 
-<b>Watch the video below to build an Pro Autofilter bot like me...</b>
+<b>veegam join aayiko ...</b>
 
-<b>Subscribe to the update channel to learn about my updates and activity...</b>
+<b>🇲🇰...</b>
 
 <b>Press /help to know about available commands🤪</b>"""    
     
     HELP_TEXT = """
-<b>😉How To Use Me!😉?</b>
+<b>yenthaad nee ithil thanne nooki irrikunathe ?</b>
 
 <i>
 -> Add Me To Any Group And Make Me Admin
