@@ -46,7 +46,14 @@ async def start(bot, update):
             LOGGER(__name__).error(e)
         return
 
+    buttons = [[
+        
+        InlineKeyboardButton('Support 🙏', url='https://t.me/filmzone_123')
+    ],[
+        InlineKeyboardButton('Help ⚙', callback_data="help")
+    ]]
     
+    reply_markup = InlineKeyboardMarkup(buttons)
     
     await bot.send_message(
         chat_id=update.chat.id,
@@ -61,13 +68,13 @@ async def start(bot, update):
 @Client.on_message(filters.command(["help"]) & filters.private, group=1)
 async def help(bot, update):
     buttons = [[
-        InlineKeyboardButton('🏠 𝙷𝚘𝚖𝚎', callback_data='start'),
-        InlineKeyboardButton('𝙰𝚋𝚘𝚞𝚝 🚩', callback_data='about')
+        InlineKeyboardButton('Home 👻', callback_data='start'),
+        InlineKeyboardButton('About 🚩', callback_data='about')
     ],[
-        InlineKeyboardButton('🔐 𝙲𝚕𝚘𝚜𝚎 🔐', callback_data='close')
+        InlineKeyboardButton('Close 🔐', callback_data='close')
     ]]
     
-  reply_markup = InlineKeyboardMarkup(buttons)
+    reply_markup = InlineKeyboardMarkup(buttons)
     
     await bot.send_message(
         chat_id=update.chat.id,
@@ -82,10 +89,8 @@ async def help(bot, update):
 async def about(bot, update):
     
     buttons = [[
-        
-       
- InlineKeyboardButton('🏠 𝙷𝚘𝚖𝚎', callback_data='start')
-        InlineKeyboardButton('𝙲𝚕𝚘𝚜𝚎 🔐', callback_data='close')
+        InlineKeyboardButton('Home 👻', callback_data='start'),
+        InlineKeyboardButton('Close 🔐', callback_data='close')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     
