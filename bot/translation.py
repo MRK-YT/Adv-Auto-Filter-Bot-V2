@@ -5,9 +5,9 @@
 class Translation(object):
     
     START_TEXT = """<b>Hey {}!!</b>
-<i>    Don't ask film here 😔
-       Im assistant manager of Flim zone group 😜
-       You can ask at the Film in Group
+<i>    Don't ask film here❗
+       Im assistant manager of Flim zone group
+       You can ask at the Film in Group🎦
                       
                          Thankyou 😊
 </i>"""    
