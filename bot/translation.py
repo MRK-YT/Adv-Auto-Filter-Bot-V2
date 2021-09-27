@@ -22,6 +22,6 @@ class Translation(object):
 
 <b>➥ Language</b> : <code>Python3</code>
 
-<b>➥ Library</b> : </b>@filmzone_123</b>
+<b>➥ Library</b> : </b>@filmzone0</b>
 
 """
