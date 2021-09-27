@@ -35,7 +35,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'channel 🙃', url="https://t.me/filmzone_123"
+                                    'channel 🙃', url="https://t.me/filmzone0"
                                 )
                         ]
                     ]
@@ -48,7 +48,7 @@ async def start(bot, update):
 
     buttons = [[
         
-        InlineKeyboardButton('channel 😊', url='https://t.me/filmzone_123')
+        InlineKeyboardButton('channel 😊', url='https://t.me/filmzone0')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
